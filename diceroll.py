@@ -12,5 +12,5 @@ while rolling == True:
 
     while num > 0:
         ranNum = random.randrange(1, randomRange)
-        print(ranNum)
+        print("nat"+str(ranNum))
         num -= 1

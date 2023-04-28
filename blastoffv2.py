@@ -1,6 +1,6 @@
-count = -1
-tmin = "T{}"
-while count > -6:
+count = 5
+tmin = "T-{}"
+while count > 0:
         print(tmin.format(count))
         count -= 1
 else:

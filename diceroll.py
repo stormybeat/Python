@@ -9,6 +9,6 @@ randomRange = int(input())
 print()
 
 while num > 0:
-    rannum = random.randrange(1, randomRange)
-    print(rannum)
+    ranNum = random.randrange(1, randomRange)
+    print(ranNum)
     num -= 1

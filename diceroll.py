@@ -1,7 +1,7 @@
 import random
 
-
-rolling = "y"
+print("\n\n\n")
+rolling = input("wanna roll? (y/n)\n")
 while rolling == "y":
     print()
     num = int(input("How many dice?\n"))

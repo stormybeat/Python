@@ -8,12 +8,14 @@ while rolling == "y":
     print()
     randomRange = int(input("How many sides?\n"))
     print()
+    total = int(0)
 
     while num > 0:
         ranNum = random.randrange(1, randomRange)
         print("nat"+str(ranNum))
         num -= 1
-
+        total = ranNum + total
+    print("Total:" + str(total))
     rolling = input("Roll again? (y/n) \n")
 else:
     print("Come again!")

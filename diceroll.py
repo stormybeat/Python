@@ -4,11 +4,9 @@ import random
 rolling = "y"
 while rolling == "y":
     print()
-    print("How many dice?")
-    num = int(input())
+    num = int(input("How many dice?\n"))
     print()
-    print("How many sides?")
-    randomRange = int(input())
+    randomRange = int(input("How many sides?\n"))
     print()
 
     while num > 0:
@@ -16,6 +14,6 @@ while rolling == "y":
         print("nat"+str(ranNum))
         num -= 1
 
-    rolling = input("Roll again??")
+    rolling = input("Roll again? (y/n) \n")
 else:
     print("Come again!")

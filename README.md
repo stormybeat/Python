@@ -1,2 +1,2 @@
 # Python
-Python Scripts I've made, each in their own folder for ease.
+Python scripts I've made, each in their own folder for ease.

@@ -4,7 +4,11 @@ print("\n\n\n")
 rolling = input("wanna roll? (y/n)\n")
 while rolling == "y":
     print()
-    num = int(input("How many dice?\n"))
+    num = input("How many dice?\n")
+    if not isinstance(num, int):
+        print("Be ffr")
+        break
+    num = int(num)
     print()
     randomRange = int(input("How many sides?\n"))
     print()
@@ -12,10 +16,10 @@ while rolling == "y":
 
     while num > 0:
         ranNum = random.randrange(1, randomRange)
-        print("nat"+str(ranNum))
+        print(f"nat {str(ranNum)}")
         num -= 1
         total = ranNum + total
-    print("Total:" + str(total))
+    print(f"Total:  {str(total)}")
     rolling = input("Roll again? (y/n) \n")
 else:
     print("Come again!")

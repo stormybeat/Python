@@ -22,3 +22,7 @@ while rolling == "y":
     rolling = input("Roll again? (y/n) \n")
 else:
     print("Come again!")
+
+
+
+# 1.1

@@ -1,14 +1,13 @@
 import random
+import os
+
+
 
 print("\n\n\n")
 rolling = input("wanna roll? (y/n)\n")
 while rolling == "y":
     print()
-    num = input("How many dice?\n")
-    if not isinstance(num, int):
-        print("Be ffr")
-        break
-    num = int(num)
+    num = int(input("How many dice?\n"))
     print()
     randomRange = int(input("How many sides?\n"))
     print()

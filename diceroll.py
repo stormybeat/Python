@@ -1,7 +1,4 @@
 import random
-import os
-
-
 
 print("\n\n\n")
 rolling = input("wanna roll? (y/n)\n")

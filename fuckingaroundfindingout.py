@@ -8,8 +8,6 @@ class Animal:
         print(self.name)
 
 
-
-
 class Dog(Animal):
     def run(self):
         print(self.name + " barks")
@@ -17,9 +15,6 @@ class Dog(Animal):
 class Cat(Animal):
     def run(self):
         print(self.name + " meows")
-
-
-
 
 
     

@@ -3,8 +3,8 @@ import random
 def diceRoll(num):
     global total
     global randomRange
-    ranNum = random.randrange(1, randomRange)
-    print(f"nat {str(ranNum)}")
+    ranNum = random.randrange(0, randomRange)
+    print(f"nat {str(1+ranNum)}")
     total = ranNum + total
 
 print("\n\n\n")
